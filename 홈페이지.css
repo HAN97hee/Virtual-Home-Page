@@ -1,0 +1,300 @@
+.한글제목{
+    position: fixed;
+    top: 20px;
+    left: 80px;
+}
+
+
+.메인메뉴{
+    width: 170px;
+    height: 40px;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    left: 410px;
+    top: 47px;
+    z-index: 1;
+}
+
+
+.메인메뉴:hover{
+    background-color: saddlebrown;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.사이드메뉴{
+    width: 170px;
+    height: 40px;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    left: 650px;
+    top: 47px;
+    z-index: 1;
+}
+
+.사이드메뉴:hover{
+    background-color:rgb(117, 161, 117);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+
+.음료{
+    width: 170px;
+    height: 40px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    left: 890px;
+    top: 47px;
+    z-index: 1;
+    
+}
+
+.음료:hover{
+    background-color: cornflowerblue;
+    transition: 0.8s;
+    cursor: pointer;
+
+}
+
+.이미지1{
+    position: fixed;
+    top: 250px;
+    left: 350px;
+    z-index: 2;
+    
+}
+
+.뉴메뉴{
+    position: fixed;
+    top: 515px;
+    left: 350px;
+    z-index: 3;
+}
+
+.아이디창{
+    position: fixed;
+    top: 210px;
+    left: 110px;
+    z-index: 3;
+    
+}
+
+
+.로그인{
+    position: fixed;
+    z-index: 5;
+    top: 200px;
+    left: 35px;
+}
+
+.로그인버튼{
+    width: 60px;
+    height: 20px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: none;
+    position: fixed;
+    top: 260px;
+    left: 195px;
+    background-color: linen;
+    z-index: 2;
+}
+
+.로그인버튼:hover{
+    background-color: darkgray;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.회원가입{
+    width: 100px;
+    height: 20px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: none;
+    position: fixed;
+    top: 290px;
+    left: 155px;
+    background-color: linen;
+    z-index: 2;
+}
+
+.회원가입:hover{
+    background-color: darkgray;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.id배경{
+    width: 270px;
+    height: 200px;
+    background-color: cadetblue;
+    z-index: 1;
+    position: fixed;
+    top: 170px;
+    left: 10px;
+    border-radius: 20px;
+}
+
+
+.신메뉴배경{
+    width: 715px;
+    height: 400px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    position: fixed;
+    top: 170px;
+    left: 300px;
+    z-index: 1;
+}
+
+.신메뉴글씨{
+    position: fixed;
+    top: 155px;
+    left: 330px;
+    z-index: 5;
+}
+
+.카레우동{
+    width: 270px;
+    height: 270px;
+    position: fixed;
+    top: 250px;
+    left: 680px;
+    z-index: 2;
+}
+
+.카레우동글씨{
+    font-size: 13px;
+    font-family: monospace;
+    color: sienna;
+    position: fixed;
+    top: 515px;
+    left: 690px;
+    z-index: 3;
+    font-weight: bold;
+
+
+}
+
+.와인{
+    width: 170px;
+    height: 40px;
+    background-color: darkorchid;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    left: 1130px;
+    top: 47px;
+    z-index: 1;
+}
+
+.와인:hover{
+    background-color: darkmagenta;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.지도{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    position: fixed;
+    top: 200px;
+    left: 1060px;
+    z-index: 2;
+}
+
+.주소명{
+    position: fixed;
+    top: 490px;
+    left: 1060px;
+    z-index: 2;
+}
+
+
+.지도배경{
+    width: 338px;
+    height: 410px;
+    z-index: 1;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    position: fixed;
+    top: 175px;
+    left: 1040px;
+}
+
+.주방전체배경{
+    width: 1450px;
+    height: 1450px;
+    position: fixed;
+    z-index: 0;
+    left: 1px;
+}
+
+.전화버튼{
+    z-index: 5;
+    position: fixed;
+    top: 330px;
+    left: 60px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+}
+
+.전화버튼:hover{
+    cursor: pointer;
+}
+
+.문자버튼{
+    z-index: 5;
+    position: fixed;
+    top: 330px;
+    left: 120px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+}
+
+.문자버튼:hover{
+    cursor: pointer;
+
+}
+
+.예약버튼{
+    z-index: 5;
+    position: fixed;
+    top: 330px;
+    left: 180px;
+    border-radius: 10px;
+    background-color: black;
+    width: 40px;
+    height: 37px;
+    color: white;
+    border: none;
+}
+
+.예약버튼:hover{
+    cursor: pointer;
+
+}
+
+
+
+
+
