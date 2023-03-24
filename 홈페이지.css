@@ -140,7 +140,7 @@
 
 .id배경{
     width: 270px;
-    height: 200px;
+    height: 480px;
     background-color: cadetblue;
     z-index: 1;
     position: fixed;
@@ -250,8 +250,8 @@
 .전화버튼{
     z-index: 5;
     position: fixed;
-    top: 330px;
-    left: 60px;
+    top: 600px;
+    left: 65px;
     border-radius: 10px;
     background-color: black;
     border: none;
@@ -264,8 +264,8 @@
 .문자버튼{
     z-index: 5;
     position: fixed;
-    top: 330px;
-    left: 120px;
+    top: 600px;
+    left: 125px;
     border-radius: 10px;
     background-color: black;
     border: none;
@@ -279,8 +279,8 @@
 .예약버튼{
     z-index: 5;
     position: fixed;
-    top: 330px;
-    left: 180px;
+    top: 600px;
+    left: 185px;
     border-radius: 10px;
     background-color: black;
     width: 40px;
@@ -293,6 +293,24 @@
     cursor: pointer;
 
 }
+
+.목록차트{
+    position: fixed;
+    top: 350px;
+    left: 40px;
+    z-index: 3;
+    color: black;
+}
+
+.검색창{
+    position: fixed;
+    top: 642px;
+    left: 70px;
+    z-index: 3;
+  
+}
+
+
 
 
 
