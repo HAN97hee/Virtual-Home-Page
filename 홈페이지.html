@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="홈페이지.css">
+    <link rel="stylesheet" href="홈페이지.css"> 
                      <title>world loves curry //가상의음식점홈피입니다.//</title>
             <style>
 
@@ -22,7 +22,8 @@
 
         <body>
             <section>
-         <h1 a href="홈페이지.html" id="상명" style="font-family:cursive;"> <span style="color: skyblue;">world</span> <span style="color: pink;">loves</span> <span style="color: burlywood;">curry</span> <br> 
+                <a href="홈페이지.html" style="text-decoration: none;">         <h1 id="상명" style="font-family:cursive;"> <span style="color: skyblue;">world</span> <span style="color: pink;">loves</span> <span style="color: burlywood;">curry</span></a>
+        <br> 
          <p class="한글제목"><span style="font-size: 20px; color: skyblue;">월</span><span style="font-size: 20px; color:pink;">럽</span><span style="font-size: 20px; color:burlywood;">카레</span></p>  </h1>
             <button class="음료">juice</button>
          <p class="뉴메뉴" style="font-size: 13px; font-family: monospace; color: sienna; font-weight: bold;">1. A new menu has been released. <br> Lamb aged curry <br> Try deep-flavored curry and soft lamb</p>
@@ -46,6 +47,7 @@
             <button type="button" class="전화버튼"><img src="img/전화아이콘.jpeg" alt="전화아이콘 이미지" width="30px" height="30px"> </button>
             <button type="button" class="문자버튼"><img src="img/문자아이콘.jpeg" alt="전화아이콘 이미지" width="30px" height="30px"> </button>
             <button class="예약버튼">예약</button>
+            <p class="가림막">  </p>
             <div class="목록차트">
                 <ul>Member information</ul>
                     <li>Reservation details</li>
@@ -59,16 +61,38 @@
             <p class="로그인창배경">  </p>
             <a href="#상명" class="top버튼">top</a>
             <p class="설명배경">   </p>
-            <p class="가게설명">open 12:00 ~ close 21:30 <br>break time 15:00 ~ 16:00 <br> 어쩌구 저쩌구 얄리얄리 정약용 점심은 <br> 순두부찌개 ㅇㅋ</p>
-            <button class="이벤트버튼">EVENT <br>GO</button>
+            <p class="가게설명">open 12:00 ~ close 21:30 <br>break time 15:00 ~ 16:00 <br> 어쩌구 저쩌구qweqweqwe <br>대충 이런저런 내용 </p>
             <a href="메인창.html" class="메인메뉴">Main menu</a>
             <a href="사이드메뉴.html" class="사이드메뉴">Side menu</a>
-          
+             <button type="button" id="이벤트팝"><img src="img/이벤트팝업.png" alt="이벤트 팝업 이미지" style="width: 120px; height: 120px; border-radius: 10px;">    -EVENT-</button>
+            
+             <div class="팝업창"></div> <div class="팝업안창"><span style="font-size: 50px; font-weight: bold; 
+             color: burlywood;">이번달 EVENT</span> <br>1. 매주 금요일 50번째 방문 고객님 식사 10%할인 <br> 2. 생일자 이벤트 어쩌구 저쩌구 ㅎ 인도난 인당 1개 공짜로 머겅 ㅎ<img src="img/인도난.jpeg" alt="인도난 이미지" style="width: 300px; height: 300px;"> </div>
+            <div class="닫기버튼"><a href="#"> </a></div> 
+
+           
+            <script>
+                window.onload = function() {
+             
+                function onClick() {
+                    document.querySelector('.팝업창').style.display ='block';
+                    document.querySelector('.팝업안창').style.display ='block';
+                }   
+                function offClick() {
+                    document.querySelector('.팝업창').style.display ='none';
+                    document.querySelector('.팝업안창').style.display ='none';
+                }
+             
+                document.getElementById('이벤트팝').addEventListener('click', onClick);
+                document.querySelector('.닫기버튼').addEventListener('click', offClick);
+             
+            };
+            </script>
+            
+        
 
         </section>
-
        
        
-
     </body>
 
