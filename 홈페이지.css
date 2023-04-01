@@ -487,7 +487,7 @@
 
 
 
-(여기 밑에 자바스크립부분)
+
 
 .팝업창{
     display: none;
@@ -495,7 +495,7 @@
     content: "";
     width: 180vh;
     height: 350vh;
-    background-color:rgba(0, 0,0, 0.8);
+    background-color:rgba(0, 0, 0, 0.7);
     top:0;
     left: 0;
     z-index: 6;
@@ -533,4 +533,3 @@
 }
 
 
-(여기까지 자바스크립 [공부해야함])
