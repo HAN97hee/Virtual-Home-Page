@@ -484,6 +484,14 @@
     background-color: black;
 }
 
+.흰카레{
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 1200px;
+    z-index: 6;
+}
+
 
 
 
