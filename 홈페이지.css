@@ -225,16 +225,6 @@
     cursor: pointer;
 }
 
-.지도{
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    position: absolute;
-    top: 200px;
-    left: 1060px;
-    z-index: 2;
-}
-
 .주소명{
     position: absolute;
     top: 490px;
@@ -484,13 +474,7 @@
     background-color: black;
 }
 
-.흰카레{
-    width: 300px;
-    height: 300px;
-    position: fixed;
-    top: 1200px;
-    z-index: 6;
-}
+
 
 
 
@@ -539,5 +523,22 @@
     background:url(https://img.icons8.com/metro/26/000000/close-window.png);
     text-indent: -9999px;
 }
+
+#map{
+    z-index: 3;
+    position: absolute;
+    top: 200px;
+    left: 1060px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 

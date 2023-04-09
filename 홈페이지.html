@@ -40,7 +40,6 @@
         <img src="img/어묵카레우동.jpeg" alt="어묵카레우동 이미지" class="카레우동" style="border-radius: 30px;">
         <p class="카레우동글씨">2. Curry udon noodles made <br> with fish cake in aged curry made <br> with savory anchovy broth</p>
             <button class="와인">Wine</button>
-        <img src="img/지도1.png" alt="매장 위치 지도 이미지" class="지도">
         <p style="font-size: 20px; font-weight: bold; color: brown;" class="주소명"><span style="font-size: 24px;">(Store address map)</span><br> 인천광역시 부평구 부평시장역 <br> 2번출구 1층</p>
         <p class="지도배경">    </p>
         <img src="img/주방사진.webp" alt="주방사진 배경 전체화면 이미지" class="주방전체배경">
@@ -89,6 +88,17 @@
              
             };
             </script>
+
+        <div id="map" style="width:300px;height:300px;"></div>
+            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=73f4c83a49bdef57ca6b9cb291164a94"></script>
+            <script>
+                var container = document.getElementById('map');
+                var options = {
+                center: new kakao.maps.LatLng(37.49786, 126.72269),
+                level: 3 };
+
+                var map = new kakao.maps.Map(container, options);
+</script>
             
         
 
